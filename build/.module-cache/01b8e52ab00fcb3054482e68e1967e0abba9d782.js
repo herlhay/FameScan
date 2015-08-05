@@ -4,9 +4,9 @@ var Homescreen = React.createClass({displayName: "Homescreen",
   render: function() {
     return (
       React.createElement("div", {className: "homepage"}, 
-        React.createElement(Logo, null), 
-        React.createElement(Caption, null), 
-        React.createElement(Luxuries, null), 
+        React.createElement("inputOne", null), 
+        React.createElement("vsLogo", null), 
+        React.createElement("inputTwo", null), 
         React.createElement(Cta, null)
       )
     );
@@ -62,7 +62,7 @@ var Cta = React.createClass({displayName: "Cta",
 });
 
 
-// React.render(
-//   <Homescreen/>,
-//   document.getElementById('container')
-// );
+React.render(
+  React.createElement(Homescreen, null),
+  document.getElementById('container')
+);

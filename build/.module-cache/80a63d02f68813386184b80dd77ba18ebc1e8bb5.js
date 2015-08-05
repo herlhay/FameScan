@@ -62,7 +62,7 @@ var Cta = React.createClass({displayName: "Cta",
 });
 
 
-// React.render(
-//   <Homescreen/>,
-//   document.getElementById('container')
-// );
+React.render(
+  React.createElement(Homescreen, null),
+  document.getElementById('container')
+);
