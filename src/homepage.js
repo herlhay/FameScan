@@ -7,6 +7,7 @@ var Homescreen = React.createClass({
         <Logo/>
         <Caption/>
         <Luxuries/>
+        <Cta/>
       </div>
     );
   }
@@ -40,7 +41,7 @@ var Luxuries = React.createClass({
   render: function() {
     return (
       <div className="row">
-        <div className="twelve.columns center caption">
+        <div className="twelve.columns center">
           <img width="150" src="./images/luxuries@2x.png"/>
         </div>
       </div>
@@ -48,6 +49,17 @@ var Luxuries = React.createClass({
   }
 });
 
+var Cta = React.createClass({
+  render: function() {
+    return (
+      <div className="row">
+        <div className="twelve.columns center">
+          <button className="btn cta-primary"> try it now</button>
+        </div>
+      </div>
+    );
+  }
+});
 
 
 React.render(
