@@ -5,8 +5,7 @@ var Homescreen = React.createClass({displayName: "Homescreen",
     return (
       React.createElement("div", {className: "homepage"}, 
         React.createElement(Logo, null), 
-        React.createElement(Caption, null), 
-        React.createElement(Luxuries, null)
+        React.createElement(Caption, null)
       )
     );
   }
@@ -35,20 +34,6 @@ var Caption = React.createClass({displayName: "Caption",
     );
   }
 });
-
-var Luxuries = React.createClass({displayName: "Luxuries",
-  render: function() {
-    return (
-      React.createElement("div", {className: "row"}, 
-        React.createElement("div", {className: "twelve.columns center caption"}, 
-          React.createElement("img", {width: "150", src: "./images/luxuries@2x.png"})
-        )
-      )
-    );
-  }
-});
-
-
 
 React.render(
   React.createElement(Homescreen, null),

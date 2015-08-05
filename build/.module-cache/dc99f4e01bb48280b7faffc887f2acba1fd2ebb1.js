@@ -1,12 +1,26 @@
 'use strict';
 
 var Homescreen = React.createClass({displayName: "Homescreen",
-  render: function() {
-    var message =
-      'React has been successfully running for seconds.';
 
-    return React.createElement("p", {className: "box"}, message);
+  getInitialState: function() {
+  	return { clicked: 'true' };
+
+  },
+
+  handleClick: function() {
+    this.setState({clicked: !this.state.liked});
+
+  },
+
+  render: function() {
+  	return (
+      <p>
+        You.
+      </p>
+
+    );
   }
+
 });
 
 React.render(
