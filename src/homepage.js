@@ -17,7 +17,7 @@ var Logo = React.createClass({
   render: function() {
     return (
       <div className="row">
-        <div className="twelve.columns center">
+        <div className="six.columns center">
           <img width="50" src="./images/Fastscan-logo@2x.png"/>
         </div>
       </div>
