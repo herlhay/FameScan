@@ -1,58 +1,100 @@
-'use strict';
+var InstantBox = React.createClass({
+    doSearch:function(queryText){
+        console.log(queryText)
+        //get query result
+        var queryResult=[];
+        this.props.data.forEach(function(person){
+            if(person.name.toLowerCase().indexOf(queryText)!=-1)
+            queryResult.push(person);
+        });
 
-var SearchBox1 = React.createClass({
-  render: function() {
-    return (
-      <div className="search-page1">
-        <SearchLogo />
-        <SearchBar />   
-        <Container />  
-      </div>
-    );
-  }
+        this.setState({
+            query:queryText,
+            filteredData: queryResult
+        })
+    },
+    getInitialState:function(){
+        return{
+            query:'',
+            filteredData: undefined
+        }
+    },
+    renderResults: function() {
+        if (this.state.filteredData) {
+            return (
+                <DisplayTable data={this.state.filteredData}/>
+            );
+        }
+    },
+    render:function(){
+        return (
+            <div className="InstantBox">
+                <h2>Who is Richer?</h2>
+                <SearchBox query={this.state.query} doSearch={this.doSearch}/>
+                {this.renderResults()}
+            </div>
+        );
+    }
 });
 
-var SearchLogo = React.createClass({
-  render: function() {
-    return (
-     <div className="row">
-      <div className="site-logo">
-        <img width="20" src="./images/Fastscan-logo@2x.png"/>
-      </div>
-    </div>   
-    );
-  }
+var SearchBox = React.createClass({
+    doSearch:function(){
+        var query=this.refs.searchInput.getDOMNode().value; // this is the search text
+        this.props.doSearch(query);
+    },
+    render:function(){
+        return <input className="searchbar-edit" type="text" ref="searchInput" placeholder="Search Name" value={this.props.query} onChange={this.doSearch}/>
+    }
 });
 
-var SearchBar = React.createClass({
-  render: function() {
-    return (
-      <div className="row">
-        <div className="twelve.columns center">
-          <div className="search-section">
-           <input className="searchbar-edit" type="text" value="Type in someone"/>   
-           <img width="30" src="./images/doubleF.png"/>
-           <input className="searchbar-edit" type="text" value="Type in someone"/>  
-          </div> 
-        </div> 
-      </div>    
-    );
-  }
+var DisplayTable = React.createClass({
+      doSearch:function(queryText){
+        console.log(queryText)
+        //get query result
+        var queryResult=[];
+        this.props.data.forEach(function(person){
+            if(person.name.toLowerCase().indexOf(queryText)!=-1)
+            queryResult.push(person);
+        });
+
+        this.setState({
+            query:queryText,
+            filteredData: queryResult
+        })
+    },
+
+    render:function(){
+        //making the rows to display
+        var rows=[];
+        this.props.data.forEach(function(person) {
+        rows.push(<tr><td>{person.image}</td></tr>)
+        rows.push(<tr><td>{person.name}</td></tr>)
+        });        
+        //returning the table
+        return(
+             <table>
+                <tbody>{rows}</tbody>
+            </table>
+        );
+    }
 });
 
-var Container = React.createClass({
-  render: function() {
-    return (
-      <div className="row">
-        <div className="twelve.columns center">
-          
-        </div> 
-      </div>    
-    );
-  }
-});
+var dataSource=[
+{
+    name:'Ipalibo Whyte',
+    image: <img width="150" src="./images/kanye-west1.jpg"/>,
+},
+{
+    name:'Chinedu Abalogu',
+    image : '002'
+},
+{
+    name:'Aminu Shehu',
+    image : '003'
+}];
+
 
 React.render(
-  <SearchBox1 />,
+  <InstantBox data={dataSource}/>,
   document.getElementById('content1')
 );
