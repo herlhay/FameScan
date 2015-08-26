@@ -30,14 +30,15 @@ var SearchBoxOne = React.createClass({displayName: "SearchBoxOne",
 
   },
   handleChange: function(filterText) {
-    retrieveContent(filterText, function(result){
+    var root = 'http://jsonplaceholder.typicode.com';
+      retrieveContent(filterText);
       this.setState({
         filterText: filterText,
-        data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
+        data: {name: 'Ciara', networth: '$52,000,000', avatarurl: "http://thatgrapejuice.net/wp-content/uploads/2014/01/ciara-album-2014-thatgrapejuice.jpg"}
       });
-    }.bind(this));
   },
   render: function() {
+    console.log(' should be called last');
     return (
       React.createElement("div", {className: "twelve columns"}, 
         React.createElement(GenericSearchBox, {onUserInput: this.handleChange}), 
@@ -57,12 +58,11 @@ var SearchBoxTwo = React.createClass({displayName: "SearchBoxTwo",
   },
 
   handleChange: function(filterText) {
-    retrieveContent(filterText, function(result){
+    var root = 'http://jsonplaceholder.typicode.com';
       this.setState({
         filterText: filterText,
-        data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
+        data: {name: 'Kanye West', networth: '$300,000,000', avatarurl: "http://holatelcel.com/wp-content/uploads/2015/01/Kanye-west.jpg"}
       });
-    }.bind(this));
   },
 
   render: function() {
@@ -153,18 +153,8 @@ var SearchResult = React.createClass({displayName: "SearchResult",
   }
 });
 
-function retrieveContent(searchQuery, completionHandler) {
-  var searchContent = [];
-
-  $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
-    var resultLength = result["artists"].length;    
-    for (var i = 0; i < resultLength; i++) {
-      if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
-        searchContent.push(result["artists"][i]);
-      }
-    }
-    completionHandler(searchContent);
-  });
+function retrieveContent(searchQuery) {
+  console.log(searchQuery);
 }
 
 /*

@@ -30,16 +30,14 @@ var SearchBoxOne = React.createClass({
 
   },
   handleChange: function(filterText) {
-    var root = 'http://jsonplaceholder.typicode.com';
-    $.get(root + '/posts/1', function( data ) {
+    retrieveContent(filterText, function(result){
       this.setState({
         filterText: filterText,
-        data: {name: 'Ciara', networth: '$52,000,000', avatarurl: "http://thatgrapejuice.net/wp-content/uploads/2014/01/ciara-album-2014-thatgrapejuice.jpg"}
+        data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
       });
     }.bind(this));
   },
   render: function() {
-    console.log(' should be called last');
     return (
       <div className="twelve columns">
         <GenericSearchBox onUserInput={this.handleChange}/>
@@ -59,11 +57,10 @@ var SearchBoxTwo = React.createClass({
   },
 
   handleChange: function(filterText) {
-    var root = 'http://jsonplaceholder.typicode.com';
-    $.get(root + '/posts/1', function( data ) {
+    retrieveContent(filterText, function(result){
       this.setState({
         filterText: filterText,
-        data: {name: 'Kanye West', networth: '$300,000,000', avatarurl: "http://holatelcel.com/wp-content/uploads/2015/01/Kanye-west.jpg"}
+        data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
       });
     }.bind(this));
   },
@@ -155,6 +152,20 @@ var SearchResult = React.createClass({
     );
   }
 });
+
+function retrieveContent(searchQuery, completionHandler) {
+  var searchContent = [];
+
+  $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
+    var resultLength = result["artists"].length;    
+    for (var i = 0; i < resultLength; i++) {
+      if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
+        searchContent.push(result["artists"][i]);
+      }
+    }
+    completionHandler(searchContent);
+  });
+}
 
 /*
 React.render(

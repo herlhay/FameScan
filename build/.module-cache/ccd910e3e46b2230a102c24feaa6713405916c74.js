@@ -159,7 +159,7 @@ function retrieveContent(searchQuery, completionHandler) {
   $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
     var resultLength = result["artists"].length;    
     for (var i = 0; i < resultLength; i++) {
-      if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
+      if (result["artists"][i]["artist-name"].indexOf(searchQuery) != -1) {
         searchContent.push(result["artists"][i]);
       }
     }

@@ -1,724 +1,1484 @@
 {
-"artists": [
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Jay Z",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$550,000,000" 
-},
-
-{
-"artist-name": "Justin Timberlake ",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$175,000,000" 
-},
-
-{
-"artist-name": "Justin Bieber",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$200,000,000" 
-},
-
-{
-"artist-name": "Kelly Roland",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$30,000,000" 
-},
-
-{
-"artist-name": "Chris Brown",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Big sean",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$12,000,000" 
-},
-
-{
-"artist-name": "J cole",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$8,000,000" 
-},
-
-{
-"artist-name": "Trey songz",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$10,000,000" 
-},
-
-{
-"artist-name": " Niki minaj",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$54,000,000" 
-},
-
-{
-"artist-name": "Caria",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$15,000,000" 
-},
-
-{
-"artist-name": "Carrie Underwood",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$70,000,000" 
-},
-
-{
-"artist-name": "Jason Derulo",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$8,500,000" 
-},
-
-{
-"artist-name": "Jordin Sparks",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$10,000,000" 
-},
-
-{
-"artist-name": "Lil wayne ",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$140,000,000" 
-},
-
-{
-"artist-name": "Rick Ross",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$35,000,000" 
-},
-
-{
-"artist-name": "P Diddy",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$735,000,000" 
-},
-
-{
-"artist-name": "Kanye West",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$130,000,000" 
-},
-
-{
-"artist-name": "Snoop Dog",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$135,000,000" 
-},
-
-{
-"artist-name": "Eminen",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$160,000,000" 
-},
-
-{
-"artist-name": "Kanye West",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$130,000,000" 
-},
-
-{
-"artist-name": "Pharrel williams",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$120,000,000" 
-},
-
-{
-"artist-name": "Busta Rhymes",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$20,000,000" 
-},
-
-{
-"artist-name": "T.I",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$50,000,000" 
-},
-
-{
-"artist-name": "Ludacris",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$25,000,000" 
-},
-
-{
-"artist-name": "Nelly",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$60,000,000" 
-},
-
-{
-"artist-name": "Omarion",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$8,000,000" 
-},
-
-{
-"artist-name": "Katy Perry",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$110,000,000" 
-},
-
-{
-"artist-name": "Rihanna ",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$120,000,000" 
-},
-
-{
-"artist-name": "Britney Spears",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$120,000,000" 
-},
-
-{
-"artist-name": "Chritina Aguilera",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$130,000,000" 
-},
-
-{
-"artist-name": "Miley Cyrus",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$150,000,000" 
-},
-
-{
-"artist-name": "Janet Jackson",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$175,000,000" 
-},
-
-{
-"artist-name": "Taylor Swift",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$200,000,000" 
-},
-
-{
-"artist-name": "Tina Turner",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$200,000,000" 
-},
-
-{
-"artist-name": "Shakira",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$220,000,000" 
-},
-
-{
-"artist-name": "Lady Gaga",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$220,000,000" 
-},
-
-{
-"artist-name": "Diana Ross",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$259,000,000" 
-},
-
-{
-"artist-name": "Cher",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$305,000,000" 
-},
-
-{
-"artist-name": "JLO",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$315,000,000" 
-},
-
-{
-"artist-name": "Barbra Streisand ",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$340,000,000" 
-},
-
-{
-"artist-name": "Shania Twin",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$350,000,000" 
-},
-
-{
-"artist-name": "Dolly Parton",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$450,000,000" 
-},
-
-{
-"artist-name": "Mariah Carey",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$510,000,000" 
-},
-
-{
-"artist-name": "Celine Dion",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$662,000,000" 
-},
-
-{
-"artist-name": "Adele",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$55,000,000" 
-},
-
-{
-"artist-name": "Madonna",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$800,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-
-{
-"artist-name": "Beyonce",
-"artist-url": "img/unilover.png",
-"artist-net-worth": "$250,000,000" 
-},
-]
+    "artists": [
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$250,000,000"
+        },
+        {
+            "artist-name": "Jay Z",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$550,000,000"
+        },
+        {
+            "artist-name": "Justin Timberlake ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$175,000,000"
+        },
+        {
+            "artist-name": "Justin Bieber",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Kelly Roland",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$30,000,000"
+        },
+        {
+            "artist-name": "Chris Brown",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$250,000,000"
+        },
+        {
+            "artist-name": "Big sean",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,000,000"
+        },
+        {
+            "artist-name": "J cole",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$8,000,000"
+        },
+        {
+            "artist-name": "Trey songz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,000,000"
+        },
+        {
+            "artist-name": " Niki minaj",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$54,000,000"
+        },
+        {
+            "artist-name": "Caria",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,000,000"
+        },
+        {
+            "artist-name": "Carrie Underwood",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$70,000,000"
+        },
+        {
+            "artist-name": "Jason Derulo",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$8,500,000"
+        },
+        {
+            "artist-name": "Jordin Sparks",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,000,000"
+        },
+        {
+            "artist-name": "Lil wayne ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$140,000,000"
+        },
+        {
+            "artist-name": "Rick Ross",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$35,000,000"
+        },
+        {
+            "artist-name": "P Diddy",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$735,000,000"
+        },
+        {
+            "artist-name": "Kanye West",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$130,000,000"
+        },
+        {
+            "artist-name": "Snoop Dog",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$135,000,000"
+        },
+        {
+            "artist-name": "Eminen",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$160,000,000"
+        },
+        {
+            "artist-name": "Kanye West",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$130,000,000"
+        },
+        {
+            "artist-name": "Pharrel williams",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$120,000,000"
+        },
+        {
+            "artist-name": "Busta Rhymes",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$20,000,000"
+        },
+        {
+            "artist-name": "T.I",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$50,000,000"
+        },
+        {
+            "artist-name": "Ludacris",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$25,000,000"
+        },
+        {
+            "artist-name": "Nelly",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$60,000,000"
+        },
+        {
+            "artist-name": "Omarion",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$8,000,000"
+        },
+        {
+            "artist-name": "Katy Perry",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$110,000,000"
+        },
+        {
+            "artist-name": "Rihanna ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$120,000,000"
+        },
+        {
+            "artist-name": "Britney Spears",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$120,000,000"
+        },
+        {
+            "artist-name": "Chritina Aguilera",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$130,000,000"
+        },
+        {
+            "artist-name": "Miley Cyrus",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$150,000,000"
+        },
+        {
+            "artist-name": "Janet Jackson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$175,000,000"
+        },
+        {
+            "artist-name": "Taylor Swift",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Tina Turner",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Shakira",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$220,000,000"
+        },
+        {
+            "artist-name": "Lady Gaga",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$220,000,000"
+        },
+        {
+            "artist-name": "Diana Ross",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$259,000,000"
+        },
+        {
+            "artist-name": "Cher",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$305,000,000"
+        },
+        {
+            "artist-name": "JLO",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$315,000,000"
+        },
+        {
+            "artist-name": "Barbra Streisand ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$340,000,000"
+        },
+        {
+            "artist-name": "Shania Twin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$350,000,000"
+        },
+        {
+            "artist-name": "Dolly Parton",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$450,000,000"
+        },
+        {
+            "artist-name": "Mariah Carey",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$510,000,000"
+        },
+        {
+            "artist-name": "Celine Dion",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$662,000,000"
+        },
+        {
+            "artist-name": "Adele",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$55,000,000"
+        },
+        {
+            "artist-name": "Madonna",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$800,000,000"
+        },
+        {
+            "artist-name": "Micheal Jordan",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Michael Schumacher",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$800,000,000"
+        },
+        {
+            "artist-name": "Vince Mcmahon",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$750,000,000"
+        },
+        {
+            "artist-name": "Arnold Palmer ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$675,000,000"
+        },
+        {
+            "artist-name": "Tiger woods",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$600,000,000"
+        },
+        {
+            "artist-name": "Roger Staubach",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$600,000,000"
+        },
+        {
+            "artist-name": "Magic Johnson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$500,000,000"
+        },
+        {
+            "artist-name": "Al Davis ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$500,000,000"
+        },
+        {
+            "artist-name": "Eddie Jordan",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$475,000,000"
+        },
+        {
+            "artist-name": "Micheal Buffer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$400,000,000"
+        },
+        {
+            "artist-name": "Bud Selig",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$400,000,000"
+        },
+        {
+            "artist-name": "Bill Bowerman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$400,000,000"
+        },
+        {
+            "artist-name": "Ayrton Senna",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$400,000,000"
+        },
+        {
+            "artist-name": "Floyd Mayweather",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$400,000,000"
+        },
+        {
+            "artist-name": "Shaquille O'Neal",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$350,000,000"
+        },
+        {
+            "artist-name": "David Beckham",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$350,000,000"
+        },
+        {
+            "artist-name": "Roger Federer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$320,000,000"
+        },
+        {
+            "artist-name": "Alex Rodriguez",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$300,000,000"
+        },
+        {
+            "artist-name": "Dale Earnhardt jr",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$300,000,000"
+        },
+        {
+            "artist-name": "Lebron James",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$300,000,000"
+        },
+        {
+            "artist-name": "Greg Norman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$300,000,000"
+        },
+        {
+            "artist-name": "Jack Nicklaus",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$280,000,000"
+        },
+        {
+            "artist-name": "Cristiano Ronaldo",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$280,000,000"
+        },
+        {
+            "artist-name": "Kobe Bryant",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$280,000,000"
+        },
+        {
+            "artist-name": "Goerge Foreman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$280,000,000"
+        },
+        {
+            "artist-name": "Paul Caddick",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$225,000,000"
+        },
+        {
+            "artist-name": "Lewis Hamilton",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$220,000,000"
+        },
+        {
+            "artist-name": "Lionel Messi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$210,000,000"
+        },
+        {
+            "artist-name": "Dave Whelan",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$210,000,000"
+        },
+        {
+            "artist-name": "Oscar De La Hoya",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Tony Hulman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Gary Player",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Wayne Gretzky",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Bob Arum",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Hakeem Olajuwon",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Jeff Gordon",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "John Madden ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$200,000,000"
+        },
+        {
+            "artist-name": "Manny Pacquiao",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$190,000,000"
+        },
+        {
+            "artist-name": "Kevin Garnett",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$190,000,000"
+        },
+        {
+            "artist-name": "Derek Jeter",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$185,000,000"
+        },
+        {
+            "artist-name": "Fernando Alonso",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$185,000,000"
+        },
+        {
+            "artist-name": "Grant Hill",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$180,000,000"
+        },
+        {
+            "artist-name": "Phil Mickelson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$180,000,000"
+        },
+        {
+            "artist-name": "Kimi Raikkonen",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$180,000,000"
+        },
+        {
+            "artist-name": "Andre Agassi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$175,000,000"
+        },
+        {
+            "artist-name": "Mahendra",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$170,000,000"
+        },
+        {
+            "artist-name": "Peyton Manning",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$165,000,000"
+        },
+        {
+            "artist-name": "Zlatan Ibrahimovic",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$160,000,000"
+        },
+        {
+            "artist-name": "The Rock Dwayne Johnson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$160,000,000"
+        },
+        {
+            "artist-name": "Charles Simonyi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Shi Yuzhu",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$4,200,000,000"
+        },
+        {
+            "artist-name": "Arkady Volo",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,150,000,000"
+        },
+        {
+            "artist-name": "Janus Friis",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,300,000,000"
+        },
+        {
+            "artist-name": "Hans- Werner Hector",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,800,000,000"
+        },
+        {
+            "artist-name": "Gil Shwed",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,650,000,000"
+        },
+        {
+            "artist-name": "David Sun",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$4,800,000,000"
+        },
+        {
+            "artist-name": "David Cherito",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$3,000,000,000"
+        },
+        {
+            "artist-name": "Hasso Plattner",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$9,500,000,000"
+        },
+        {
+            "artist-name": "Marc Benioff",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$3,800,000,000"
+        },
+        {
+            "artist-name": "Mark Zuckerberg",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$39,300,000,000"
+        },
+        {
+            "artist-name": "Sergey Brin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$30,200,000,000"
+        },
+        {
+            "artist-name": "Larry Page",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$30,800,000,000"
+        },
+        {
+            "artist-name": "Walter Haefner",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$4,300,000,000"
+        },
+        {
+            "artist-name": "Bob Parsons",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,500,000,000"
+        },
+        {
+            "artist-name": "Sean Parker",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$2,600,000,000"
+        },
+        {
+            "artist-name": "Bill Gates",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$78,200,000,000"
+        },
+        {
+            "artist-name": "Paul Allen",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$17,500,000,000"
+        },
+        {
+            "artist-name": "Dustin Moskovitz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$8,100,000,000"
+        },
+        {
+            "artist-name": "Kim Jung-Ju",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$2,800,000,000"
+        },
+        {
+            "artist-name": "Elon Musk",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,600,000,000"
+        },
+        {
+            "artist-name": "Charles Ergen ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$18,000,000,000"
+        },
+        {
+            "artist-name": "Michael Dell ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$18,300,000,000"
+        },
+        {
+            "artist-name": "Jeff Bezos",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$41,900,000,000"
+        },
+        {
+            "artist-name": "Eric Lefkofsky",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,500,000,000"
+        },
+        {
+            "artist-name": "Mark Pincus",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,800,000,000"
+        },
+        {
+            "artist-name": "Jeffrey Skoll",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$4,100,000,000"
+        },
+        {
+            "artist-name": "Steve Jobs",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,200,000,000"
+        },
+        {
+            "artist-name": "Peter Thiel",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$2,200,000,000"
+        },
+        {
+            "artist-name": "Carlos Slim",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$70,500,000,000"
+        },
+        {
+            "artist-name": "Shiv Nadar",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,900,000,000"
+        },
+        {
+            "artist-name": "Steve Ballmer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$22,100,000,000"
+        },
+        {
+            "artist-name": "James Jannard",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$3,000,000,000"
+        },
+        {
+            "artist-name": "Ernesto and Kirsty Bertarelli",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$8,700,000,000"
+        },
+        {
+            "artist-name": "Azim Premji",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$16,900,000,000"
+        },
+        {
+            "artist-name": "Gordon Moore",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$6,600,000,000"
+        },
+        {
+            "artist-name": "Micheal Moritz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,650,000,000"
+        },
+        {
+            "artist-name": "Teddy Sagi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$3,600,000,000"
+        },
+        {
+            "artist-name": "Yuri Milner",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$3,400,000,000"
+        },
+        {
+            "artist-name": "James Dyson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$2,700,000,000"
+        },
+        {
+            "artist-name": "Richard Branson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$5,000,000,000"
+        },
+        {
+            "artist-name": "Yoshikazu Tanaka",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,700,000,000"
+        },
+        {
+            "artist-name": "Larry Ellison",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$50,600,000,000"
+        },
+        {
+            "artist-name": "Amancio Ortega",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$70,700,000,000"
+        },
+        {
+            "artist-name": "Carlos Slim",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$70,500,000,000"
+        },
+        {
+            "artist-name": "Warren Buffett",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$65,100,000,000"
+        },
+        {
+            "artist-name": "Larry Ellison",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$50,600,000,000"
+        },
+        {
+            "artist-name": "Jeff Bezos",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$41,900,000,000"
+        },
+        {
+            "artist-name": "Charles Koch",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$41,800,000,000"
+        },
+        {
+            "artist-name": "David Koch",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$41,800,000,000"
+        },
+        {
+            "artist-name": "Liliane Bettencourt",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$41,600,000,000"
+        },
+        {
+            "artist-name": "Bernard Arnault",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$37,900,000,000"
+        },
+        {
+            "artist-name": "Micheal Bloomberg",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$37,300,000,000"
+        },
+        {
+            "artist-name": "Jim Walton",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$35,800,000,000"
+        },
+        {
+            "artist-name": "Wang Jianlin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$34,700,000,000"
+        },
+        {
+            "artist-name": "S. Robson Walton",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$34,300,000,000"
+        },
+        {
+            "artist-name": "Sergey Brin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$30,200,000,000"
+        },
+        {
+            "artist-name": "Sheldon Adelson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$29,300,000,000"
+        },
+        {
+            "artist-name": "Prince Al-Waleed bin Talal",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$27,200,000,000"
+        },
+        {
+            "artist-name": "Li Ka-shing",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$26,700,000,000"
+        },
+        {
+            "artist-name": "Forrest Mars Jr.",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$26,200,000,000"
+        },
+        {
+            "artist-name": "Georg Schaeffler",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$26,200,000,000"
+        },
+        {
+            "artist-name": "Forrest Mars",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$26,200,000,000"
+        },
+        {
+            "artist-name": "John Mars",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$26,200,000,000"
+        },
+        {
+            "artist-name": "Lee Shau Kee",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$25,900,000,000"
+        },
+        {
+            "artist-name": "Phil Knight",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$25,000,000,000"
+        },
+        {
+            "artist-name": "David Thomson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$25,000,000,000"
+        },
+        {
+            "artist-name": "Philip Knight",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$25,000,000,000"
+        },
+        {
+            "artist-name": "George Scoros",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$24,200,000,000"
+        },
+        {
+            "artist-name": "Patrick Drahi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$24,100,000,000"
+        },
+        {
+            "artist-name": "Stefan Persson ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$23,700,000,000"
+        },
+        {
+            "artist-name": "Mukesh Ambani",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$22,500,000,000"
+        },
+        {
+            "artist-name": "Steve Ballmer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$22,100,000,000"
+        },
+        {
+            "artist-name": "Carl Icahn ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$21,700,000,000"
+        },
+        {
+            "artist-name": "Len Blavatnik",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$21,000,000,000"
+        },
+        {
+            "artist-name": "Sir Evelyn de Rothschild",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$20,000,000,000"
+        },
+        {
+            "artist-name": "Dilip Shanghvi",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$19,700,000,000"
+        },
+        {
+            "artist-name": "Li Hejun",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$19,400,000,000"
+        },
+        {
+            "artist-name": "Dieter Schwarz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$19,000,000,000"
+        },
+        {
+            "artist-name": "Ma Huateng",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$18,500,000,000"
+        },
+        {
+            "artist-name": "Paul Allen ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$17,500,000,000"
+        },
+        {
+            "artist-name": "Aliko Dangote",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$17,100,000,000"
+        },
+        {
+            "artist-name": "Azim Premji",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$16,900,000,000"
+        },
+        {
+            "artist-name": "Joseph Safra",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$16,800,000,000"
+        },
+        {
+            "artist-name": "Micheal Otto ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$16,600,000,000"
+        },
+        {
+            "artist-name": "Thomas and Raymond Kwok",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$16,000,000,000"
+        },
+        {
+            "artist-name": "Thomas Peterffy",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,600,000,000"
+        },
+        {
+            "artist-name": "Pallonji Mistry",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,500,000,000"
+        },
+        {
+            "artist-name": "Ray Dalio",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,400,000,000"
+        },
+        {
+            "artist-name": "Donald Bren",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,200,000,000"
+        },
+        {
+            "artist-name": "Mikhail Fridman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$15,000,000,000"
+        },
+        {
+            "artist-name": "David and Simon Rueben",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,600,000,000"
+        },
+        {
+            "artist-name": "Stefano Pessina",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,400,000,000"
+        },
+        {
+            "artist-name": "Leonid Mikhelson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,300,000,000"
+        },
+        {
+            "artist-name": "Vladimir Potanin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,100,000,000"
+        },
+        {
+            "artist-name": "Henry Sy",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,000,000,000"
+        },
+        {
+            "artist-name": "Alisher Usmanov",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$14,000,000,000"
+        },
+        {
+            "artist-name": "Francois Pinault",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,800,000,000"
+        },
+        {
+            "artist-name": "Viktor Vekselberg",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,800,000,000"
+        },
+        {
+            "artist-name": "Francois-Henri Pinault",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,800,000,000"
+        },
+        {
+            "artist-name": "Francois-Henri Pinault",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,800,000,000"
+        },
+        {
+            "artist-name": "Rupert Murdoch",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,700,000,000"
+        },
+        {
+            "artist-name": "Marcel Herrmann Telles",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,600,000,000"
+        },
+        {
+            "artist-name": "Robin LI",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,600,000,000"
+        },
+        {
+            "artist-name": "Dhanin Chearavanont",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,500,000,000"
+        },
+        {
+            "artist-name": "Lei Jun",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,400,000,000"
+        },
+        {
+            "artist-name": "Cheng Yu-Tung",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,000,000,000"
+        },
+        {
+            "artist-name": "German Larrea Mota Velasco",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$13,000,000,000"
+        },
+        {
+            "artist-name": "Stephen Schwarzman",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,900,000,000"
+        },
+        {
+            "artist-name": "Philip Anschutz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,800,000,000"
+        },
+        {
+            "artist-name": "Jack Taylor",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,700,000,000"
+        },
+        {
+            "artist-name": "Andrew Beal ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,600,000,000"
+        },
+        {
+            "artist-name": "Lakshmi Mittal ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,600,000,000"
+        },
+        {
+            "artist-name": "Patrick Soon-Shiong",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,500,000,000"
+        },
+        {
+            "artist-name": "Hans Rausing",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,500,000,000"
+        },
+        {
+            "artist-name": "Luis Carlos Sarmiento",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,400,000,000"
+        },
+        {
+            "artist-name": "Gennady Timchenko",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,200,000,000"
+        },
+        {
+            "artist-name": "He Xiangjian",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$12,100,000,000"
+        },
+        {
+            "artist-name": "Carlos Alberto Sicupira",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,800,000,000"
+        },
+        {
+            "artist-name": "Dietrich Mateschitz",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,700,000,000"
+        },
+        {
+            "artist-name": "Vladimir Lisin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,600,000,000"
+        },
+        {
+            "artist-name": "Steve Cohen",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,400,000,000"
+        },
+        {
+            "artist-name": "Klaus-Michael Kuehne",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,400,000,000"
+        },
+        {
+            "artist-name": "John Paulson",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,200,000,000"
+        },
+        {
+            "artist-name": "Robert Kuok",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,100,000,000"
+        },
+        {
+            "artist-name": "Lui Che Woo",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$11,000,000,000"
+        },
+        {
+            "artist-name": "Mohammed Al-Amoudi ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,900,000,000"
+        },
+        {
+            "artist-name": "Vagit Alekperov",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,800,000,000"
+        },
+        {
+            "artist-name": "Richard Kinder ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,600,000,000"
+        },
+        {
+            "artist-name": "David Tepper",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,400,000,000"
+        },
+        {
+            "artist-name": "Charles Butt ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,400,000,000"
+        },
+        {
+            "artist-name": "Lee Kun-Hee ",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,400,000,000"
+        },
+        {
+            "artist-name": "Eric Schmidt",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,200,000,000"
+        },
+        {
+            "artist-name": "Pierre Castel",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,100,000,000"
+        },
+        {
+            "artist-name": "Peter Kramer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,000,000,000"
+        },
+        {
+            "artist-name": "David de Rothschild",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,000,000,000"
+        },
+        {
+            "artist-name": "Anthony Malkin",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$10,000,000,000"
+        },
+        {
+            "artist-name": "Joseph Lau",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$9,900,000,000"
+        },
+        {
+            "artist-name": "Gerard Wertheimer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$9,900,000,000"
+        },
+        {
+            "artist-name": "Alain Wertheimer",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$9,900,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        },
+        {
+            "artist-name": "Beyonce",
+            "artist-url": "img/unilover.png",
+            "artist-net-worth": "$1,000,000,000"
+        }
+    ]
 }

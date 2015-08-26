@@ -35,7 +35,8 @@ var SearchBoxOne = React.createClass({displayName: "SearchBoxOne",
         filterText: filterText,
         data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
       });
-    }.bind(this));
+    }).bind(this);
+      
   },
   render: function() {
     return (
@@ -57,12 +58,11 @@ var SearchBoxTwo = React.createClass({displayName: "SearchBoxTwo",
   },
 
   handleChange: function(filterText) {
-    retrieveContent(filterText, function(result){
+    retrieveContent("SearchBox Two" + filterText);
       this.setState({
         filterText: filterText,
-        data: {name: result[0]["artist-name"], networth: result[0]["artist-net-worth"], avatarurl: result[0]["artist-url"]}
+        data: {name: 'Kanye West', networth: '$300,000,000', avatarurl: "http://holatelcel.com/wp-content/uploads/2015/01/Kanye-west.jpg"}
       });
-    }.bind(this));
   },
 
   render: function() {
@@ -159,7 +159,7 @@ function retrieveContent(searchQuery, completionHandler) {
   $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
     var resultLength = result["artists"].length;    
     for (var i = 0; i < resultLength; i++) {
-      if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
+      if (result["artists"][i]["artist-name"].indexOf(searchQuery) != -1) {
         searchContent.push(result["artists"][i]);
       }
     }
