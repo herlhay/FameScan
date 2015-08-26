@@ -121,11 +121,18 @@ var ResultBoxTwo = React.createClass({
 
 var SearchResult = React.createClass({
   render: function() {
+    var divStyle = {
+      backgroundImage: 'url(' + this.props.data.avatarurl + ')',
+      width: 100,
+      height: 100
+    };
     return (
       <div className="result-content zoom-in">
         <div className="row">
           <div className="twelve columns center">
-            <img className="avatar center" src={''+this.props.data.avatarurl+''} width="100"/>
+            <div className="avatar center" style={divStyle}>
+              <span style={divStyle}></span>
+            </div>
           </div>
         </div>
         <div className="row">
@@ -156,7 +163,7 @@ var SearchResult = React.createClass({
 function retrieveContent(searchQuery, completionHandler) {
   var searchContent = [];
 
-  $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
+  $.get( "https://api.myjson.com/bins/2u39u", function( result ) {
     var resultLength = result["artists"].length;    
     for (var i = 0; i < resultLength; i++) {
       if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
