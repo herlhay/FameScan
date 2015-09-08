@@ -121,18 +121,11 @@ var ResultBoxTwo = React.createClass({displayName: "ResultBoxTwo",
 
 var SearchResult = React.createClass({displayName: "SearchResult",
   render: function() {
-    var divStyle = {
-      backgroundImage: 'url(' + this.props.data.avatarurl + ')',
-      width: 100,
-      height: 100
-    };
     return (
       React.createElement("div", {className: "result-content zoom-in"}, 
         React.createElement("div", {className: "row"}, 
           React.createElement("div", {className: "twelve columns center"}, 
-            React.createElement("div", {className: "avatar center", style: divStyle}, 
-              React.createElement("span", {style: divStyle})
-            )
+            React.createElement("img", {className: "avatar center", src: ''+this.props.data.avatarurl+'', width: "100"})
           )
         ), 
         React.createElement("div", {className: "row"}, 
@@ -163,7 +156,7 @@ var SearchResult = React.createClass({displayName: "SearchResult",
 function retrieveContent(searchQuery, completionHandler) {
   var searchContent = [];
 
-  $.get( "https://api.myjson.com/bins/4093i", function( result ) {
+  $.get( "https://api.myjson.com/bins/2nuqi", function( result ) {
     var resultLength = result["artists"].length;    
     for (var i = 0; i < resultLength; i++) {
       if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {

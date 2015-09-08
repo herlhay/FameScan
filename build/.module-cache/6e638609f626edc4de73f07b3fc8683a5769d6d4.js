@@ -163,7 +163,7 @@ var SearchResult = React.createClass({displayName: "SearchResult",
 function retrieveContent(searchQuery, completionHandler) {
   var searchContent = [];
 
-  $.get( "https://api.myjson.com/bins/4093i", function( result ) {
+  $.get( "https://api.myjson.com/bins/4q216", function( result ) {
     var resultLength = result["artists"].length;    
     for (var i = 0; i < resultLength; i++) {
       if ((result["artists"][i]["artist-name"].toLowerCase()).indexOf(searchQuery.toLowerCase()) != -1) {
