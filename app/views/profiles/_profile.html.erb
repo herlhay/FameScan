@@ -1,0 +1,27 @@
+<% @profiles.each do |p| %>
+	<%= link_to profile_path(p), class: "box" do %>
+	<div class="profile-box">
+		<div class="details-box">
+			<div class="profile-img" style="background-image: url(<%=p.avatar.url%>);">
+			</div>
+			<div class="desc-box">
+				<div class="profile-name">
+					<%= p.first_name %> <%= p.middle_name %> <%=p.last_name%>
+				</div>
+				<div class="net_worth">
+					<%= image_tag "naira.jpg", class: "naira-logo" %> <%= p.net_worth %>
+				</div>
+			</div>
+			<div class="source-container">
+				<b style="font-size:10px">Source of wealth?</b>
+				<hr style="margin:0">
+				<ul>
+					<li><%=p.source1%></li>
+					<li><%=p.source2%></li>
+					<li><%=p.source3%></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<% end %>
+<% end %>

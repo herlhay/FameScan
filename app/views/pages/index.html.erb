@@ -1,0 +1,32 @@
+<div class="background-cover-image">
+	<div id="canvas" class="background-overlay">
+		<div class="nav-bar"><div class="logo bounceInDown animated">FAMESCAN</div></div>
+		<div class="main-icons" style="margin-top:20%">
+		<a href="/ImDefinitelyRich"><p class="glyphicon glyphicon-plus slideInLeft animated"></p></a>
+		<a href="/Search"><p class="glyphicon glyphicon-search slideInRight animated"></p></div></a>
+
+		<div class="guidelines-container">
+			<ul class="guidelines slideInLeft animated">
+				<li>01. click + to create a profile for yourself</span> </li>
+				<li>02. use search icon to find users with their net worth and details </li>
+				<li>03. after creating a profile for yourself, shoot us an email of your bank statement|s as proof of networth</li>
+				<li>04. your profile with your networth will be visible to everyone that uses this app</li>
+				<li>05. voalla you are famous! </li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$("#canvas").particles({
+		amount:30,
+		duration:{random:true},
+		speed:{speed:1},
+		layout:"after",
+		color:{random:true}
+	}).click(function(){
+		$(this).particles("stop");
+	}).on("stateChange.particles",function(event){
+		console.log(event.detail.state);
+	});
+</script>

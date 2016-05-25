@@ -1,0 +1,108 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$purple: #8e44ad;
+
+.nav-bar {
+	width: 100%;
+	height: 50px;
+}
+.logo {
+	width: 30%;
+	color:$purple;
+	font-weight:bold;
+	padding:15px;
+	float: left;
+
+	&:hover{
+		background-color: transparent;
+		text-decoration: none;
+	};
+}
+.background-cover-image {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url('cash.jpg') !important;
+	background-size: cover;
+}
+.background-overlay {
+	background-color: black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity:0.9;
+	top: 0;
+	left:0;
+	padding: 0;
+	color: gray;
+	h1 {
+		text-align: center;
+		font-weight: light;
+	}
+	.main-icons{
+		margin: 20px 35% 0 35%;
+		p{
+			float: left;
+			color: white;
+			font-size: 100px;
+			font-weight: bolder;
+			padding: 20px;
+			text-align: center;
+		}
+	}
+}
+.profile-img-container {
+	width: 70%;
+	height: 80%;
+	margin: 10% 5% 20px 25%;
+	background-color: gray;
+	.profile-img {
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+		background-image: url("chinedu.jpg") !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.profile-img-container-2 {
+	width: 70%;
+	height: 80%;
+	margin: 10% 25% 20px 5%;
+	background-color: gray;
+	.profile-img {
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+		background-image: url("chinedu.jpg") !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.guidelines-container {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(142, 68, 173,0.1);
+}
+.guidelines {
+	list-style: none; 
+	li {
+		float: left;
+		height: 100%;
+		width: 20%;
+		padding: 5px 5px 0 20px;
+	}
+}
+.particles{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#canvas {
+	width: 100%;
+}

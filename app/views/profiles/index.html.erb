@@ -1,0 +1,16 @@
+<div class="nav-bar">
+  <a href="/"><div class="logo bounceInDown animated">FAMESCAN</div></a>
+    <div class="input-container"> 
+      <%= form_tag( @profiles_path , method: "get") do %>
+        <%= text_field_tag(:search, nil, class: 'input search-icon') %>
+      <% end %>
+    </div>
+</div>
+
+<div class="search-container" style="margin-top:50px">
+  <% if @profiles.present? %>
+    <%= render 'profile' %>
+  <% else %>
+    <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
+  <% end %>
+</div>

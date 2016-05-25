@@ -1,0 +1,168 @@
+// Place all the styles related to the Profiles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$purple: #8e44ad;
+$light_gray: #E8E8E8;
+$dark_gray: #474D62;
+
+/***************************************
+
+	INDEX PAGE
+
+***************************************/
+
+.input-container {
+	margin-top: 12px;
+	width: 70%;	
+	float: left;
+}
+.input {
+	width: 500px;
+	border-radius: 10px;
+	border: 0;
+    height: 32px;
+    color: #404040;
+    background-color: rgba(211,211,211,0.3);
+} 
+.input:focus {
+	outline:0;
+}
+.search-container {
+	width: 40%;
+	height: 100%;
+	margin: 0 auto;
+}
+.profile-box {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px; 
+	border-radius: 5px;
+	border: 1px solid #e9e9e9;
+	box-shadow: 2px 2px 1px rgba(142, 68, 173,0.1);
+	display: inline-block;
+
+	&:hover {
+		box-shadow: 2px 2px rgba(142, 68, 173,0.3);
+	}
+}
+.details-box {
+	padding: 10px;
+	width: 100%;
+	height: 100%
+}
+.profile-img {
+	width: 20%;
+	height: 100%;
+	border-radius: 5px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+.profile-name {
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	height: 40px;
+	color: $dark_gray;
+}
+.desc-box {
+	float: left;
+    margin-left: 10px;
+    height: 100%;
+    width: 50%;
+}
+.naira-logo {
+	width: 15px;
+	height: 15px;
+}
+.net_worth {
+	float: left;  
+	font-size: 19px;
+	font-weight: bold;
+	height: 20px;
+	width: 70%;
+	line-height: 2px;
+}
+.source-container {
+	width: 26%;
+	height: 100%;
+	float: left;
+	color: $light_gray;
+	ul {
+		list-style-type: none;
+		font-size:10px;
+		font-weight:bold;
+		padding: 0;
+	}
+	&:hover {
+		color: rgba(142, 68, 173,0.3);
+	};
+}
+
+/***************************************
+
+	SHOW PAGE
+
+***************************************/
+.side-bar {
+	position: relative;
+	height: 100%;
+	background: url("profile-bg-img.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.side-bar-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left:0;
+	padding: 0;
+	color: gray;
+	background-color: rgba(142, 68, 173,0.3);
+}
+.profile-container {
+	width: 80%;
+	height: 80%;	
+	margin: 10% 10%;
+}
+.profile-image-container {
+	width: 100%;
+	height: 200px;
+}
+.profile-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center center;
+}
+.content-container {
+	width: 100%;
+	height: 150px;
+	float: left;
+	color: gray;
+}
+.content {
+	padding: 0 60px;
+	text-align: center;
+	color: gray;
+	font-size: 10px;
+}
+
+/***************************************
+
+	NEW PAGE
+
+***************************************/
+.side-bar-form {
+	position: relative;
+	height: 100%;
+	background: url("luxury.jpeg");
+	background-position: center;
+	background-size: cover;
+}
