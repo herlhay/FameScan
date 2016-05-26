@@ -6,6 +6,27 @@ $purple: #8e44ad;
 $light_gray: #E8E8E8;
 $dark_gray: #474D62;
 
+/* Breakpoints */
+
+$breakpoint_750: 750px;
+
+
+/***************************************
+
+	GENERAL 
+
+***************************************/
+
+.float-left {
+	float:left;
+}
+.float-right {
+	float:right;
+}
+.clear-float {
+	clear: both;
+}
+
 /***************************************
 
 	INDEX PAGE
@@ -29,9 +50,9 @@ $dark_gray: #474D62;
 	outline:0;
 }
 .search-container {
-	width: 40%;
+	width: 500px;
 	height: 100%;
-	margin: 0 auto;
+	margin-left: 30%;
 }
 .profile-box {
 	width: 100%;
@@ -65,7 +86,6 @@ $dark_gray: #474D62;
 	float: left;
 	width: 100%;
 	font-weight: bold;
-	height: 40px;
 	color: $dark_gray;
 }
 .desc-box {
@@ -127,7 +147,7 @@ $dark_gray: #474D62;
 .profile-container {
 	width: 80%;
 	height: 80%;	
-	margin: 10% 10%;
+	margin: 10% 5% 0 5%;
 }
 .profile-image-container {
 	width: 100%;
@@ -153,7 +173,32 @@ $dark_gray: #474D62;
 	color: gray;
 	font-size: 10px;
 }
-
+.show-profile-name {
+	text-align:center; 
+	font-size:20px; 
+	margin:10px 0 10px 0;
+}
+.show-net_worth {
+	text-align:center; 
+	width:100%;
+	font-size:25px;
+}
+.location {
+	width: 100%;
+	text-align: center;
+	margin: 0 0 20px 0;
+	color: $dark_gray
+}
+#source {
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+	li {
+		display: inline-block;
+		color: $dark_gray;
+		font-size: 10px;
+	}
+}
 /***************************************
 
 	NEW PAGE
@@ -166,3 +211,40 @@ $dark_gray: #474D62;
 	background-position: center;
 	background-size: cover;
 }
+
+/***************************************
+
+	FORM PAGE
+
+***************************************/
+
+.myfield {
+	float: left;
+}
+
+.field {
+	clear: both;
+}
+
+/***************************************
+
+	MEDIA QUERY
+
+***************************************/
+
+/* For devices larger than 750px */
+@media (max-width: $breakpoint_750) {
+
+.input-container {
+	margin-top: 12px;
+	width: 70%;	
+	float: left;
+	clear: both;
+	margin: 0 15% 0 15%;
+}
+.search-container {
+	width: 500px;
+	height: 100%;
+	margin: 0 15%;
+}
+}	

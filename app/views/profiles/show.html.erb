@@ -1,22 +1,30 @@
-<div class="col-sm-4 side-bar fadeInLeft animated">
-  <div class="side-bar-overlay">
-      <div class="bounceInDown animated">
-        <a class="logo" href="/">FAMESCAN</a>
-      </div>
+<div class="col-sm-4 side-bar fadeInLeft animated" >
+  <div class="side-bar-overlay" >
+    <div class="bounceInDown animated">
+      <a class="logo" href="/">FAMESCAN</a>
     </div>
+  </div>
 </div>
 <div class="col-sm-8 zoomInUp animated" style="height:100%">
   <div class="profile-container">
-    <div class="profile-image-container">
+    <div class="profile-image-container float-left">
       <div class="profile-image" style="background-image: url(<%=@profile.avatar.url%>);"></div>
-      <div class="profile-name" style="text-align:center; font-size:20px; margin-top:10px;">
-        <%= @profile.first_name %> <%= @profile.middle_name %> <%=@profile.last_name%>
-      </div>
-      
-      <div class="net_worth" style="text-align:center; width:100%;font-size:25px;height:50px;">
-        <%= image_tag "naira.jpg", class: "naira-logo" %> <%= @profile.net_worth %>
-      </div>
+    </div>  
+    <div class="profile-name show-profile-name float-left">
+      <%= @profile.first_name %> <%= @profile.middle_name %> <%=@profile.last_name%>
     </div>
+    <div class="location float-left">
+      <%= @profile.mystate %>, <%= @profile.mycountry %>
+      <p>Age: <%= @profile.age %></p>
+    </div>
+    <div class="net_worth show-net_worth float-left">
+      <%= image_tag "naira.jpg", class: "naira-logo" %> <%= @profile.net_worth %>
+    </div>
+    <ul id="source" class="float-left">
+      <li><%= @profile.source1 %></li> ||
+      <li><%= @profile.source2 %></li> ||
+      <li><%= @profile.source3 %></li> 
+    </ul>
     <div class="content-container">
       <div class="content">
       <%= @profile.description %>

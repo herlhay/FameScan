@@ -28,7 +28,11 @@ ActiveRecord::Schema.define(version: 20160325203009) do
     t.string   "source2"
     t.string   "source3"
     t.integer  "net_worth"
+    t.string   "Country"
+    t.string   "State"
     t.text     "description"
+    t.string   "mycountry"
+    t.string   "mystate"
   end
 
 end

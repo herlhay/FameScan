@@ -11,15 +11,15 @@
   </div>
 <% end %>
 
-  <div class="field">
+  <div class="myfield">
     <%= f.label :first_name %><br>
     <%= f.text_field :first_name %>
   </div>
-  <div class="field">
+  <div class="myfield">
     <%= f.label :middle_name %><br>
     <%= f.text_field :middle_name %>
   </div>
-  <div class="field">
+  <div class="myfield">
     <%= f.label :last_name %><br>
     <%= f.text_field :last_name %>
   </div>
@@ -44,7 +44,15 @@
   <div class="field">
   <%= f.file_field :avatar %>
   </div>
-  <div class="actions">
+  <div class="myfield">
+    <%= f.label :mycountry %><br>
+    <%= f.text_field :mycountry %>
+  </div>
+  <div class="myfield">
+    <%= f.label :mystate %><br>
+    <%= f.text_field :mystate %>
+  </div>
+  <div class="actions field">
     <%= f.submit %>
   </div>
   <% end %>
