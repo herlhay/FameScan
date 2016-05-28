@@ -14,12 +14,15 @@
       <%= @profile.first_name %> <%= @profile.middle_name %> <%=@profile.last_name%>
     </div>
     <div class="location float-left">
+       <p> <%= @profile.job %> </p>
       <%= @profile.mystate %>, <%= @profile.mycountry %>
       <p>Age: <%= @profile.age %></p>
+      <p><%= @profile.education %></p>
     </div>
     <div class="net_worth show-net_worth float-left">
       <%= image_tag "naira.jpg", class: "naira-logo" %> <%= @profile.net_worth %>
     </div>
+    <hr>
     <ul id="source" class="float-left">
       <li><%= @profile.source1 %></li> ||
       <li><%= @profile.source2 %></li> ||
