@@ -14,7 +14,7 @@ gem 'bcrypt',               '3.1.7'
 gem 'bootstrap_form'
 gem "paperclip", "~> 4.3"
 gem 'will_paginate', '~> 3.1.0'
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
