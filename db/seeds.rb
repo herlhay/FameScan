@@ -1,6 +1,6 @@
 Profile.destroy_all
 
-Profile.create! 
+Profile.create! [
 	{
 		first_name: "Aliko",
 		middle_name: "",
@@ -171,23 +171,49 @@ Profile.create!
 		first_name: "Oba",
 		middle_name: "",
 		last_name: "Otudeko",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
+		job: "Founder, Honeywell Group",
+		education: "Bachelor of Arts / Science, Leeds College of Commerce",
+		age: 72,
+		source1: "manufacturing",
+		source2: "telecom",
 		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
+		net_worth: "110 Billion",
+		description: "Oba Otudeko is the founder and chairman of Honeywell Group. The conglomerate's operations stretch across oil and gas, flour milling, real estate and marine transportation. Another piece of his fortune is in the oceanfront Radisson Blu in Lagos, Nigeria.",
 		mycountry: "Nigeria",
 		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
+		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otudeko.jpg")
+	},
+	{
+		first_name: "Hakeem",
+		middle_name: "Belo",
+		last_name: "Osagie",
+		job: "Chairman, Etisalat Nigeria",
+		education: "Master of Business Administration, Harvard Business School",
+		age: 61,
+		source1: "telecom",
+		source2: "",
+		source3: "self made",
+		net_worth: "119 Billion",
+		description: "Hakeem Belo-Osagie is the chairman of Etisalat Nigeria, Nigeria's fourth largest mobile telecom network, with more than 18 million subscribers. His father was the gynecologist to the family of former Nigerian military president Ibrahim Babangida. Through that connection, he was able to secure a job as a Special Assistant to the Presidential Adviser on petroleum and energy and later as Special Assistant to the Minister of Petroleum and Energy, positions which he admits put him in a position to close on a few oil deals from where he made his first fortune.",
+		mycountry: "Nigeria",
+		mystate: "Lagos",
+		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/osagie.jpg")
+	},
+	{
+		first_name: "Tunde",
+		middle_name: "",
+		last_name: "Folawiyo",
+		job: "MD, Yinka Folawiyo group",
+		education: "",
+		age: 56,
+		source1: "oil",
+		source2: "telecom",
+		source3: "",
+		net_worth: "129 Billion",
+		description: "Tunde Folawiyo is the managing director of the Yinka Folawiyo Group, conglomerate with interests in energy, agriculture, shipping, real estate and engineering. His father, Wahab Folawiyo, a well known Nigerian businessman and Islamic leader, started the group in 1957 as a commodities trading outfit and served as chairman until 2008 when he passed away. Folawiyo now calls the shots. The company's oil exploration firm, Yinka Folawiyo Petroleum, owns a 60% interest in an oil block that contains the Aje offshore field.",
+		mycountry: "Nigeria",
+		mystate: "Lagos",
+		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/folawiyo.jpeg")
 	},
 	{
 		first_name: "Tony",
@@ -210,181 +236,5 @@ Profile.create!
 		mycountry: "Nigeria",
 		mystate: "Lagos",
 		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
-	{
-		first_name: "Tony",
-		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
-		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
-		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
-		mycountry: "Nigeria",
-		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
-	},
+	}
 ]

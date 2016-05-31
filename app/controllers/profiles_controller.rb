@@ -6,9 +6,11 @@ class ProfilesController < ApplicationController
   def index
     @profiles = Profile.all
     if params[:search]
-      @profiles = Profile.search(params[:search]).order("created_at DESC")
+      @profiles = Profile.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], 
+        :per_page => 5 )
     else
-      @profiles = Profile.all.order("created_at DESC")
+      @profiles = Profile.all.order("created_at DESC").paginate(:page => params[:page], 
+        :per_page => 5 )
     end 
   end
 

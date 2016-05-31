@@ -4,7 +4,7 @@ class Profile < ActiveRecord::Base
 
   def self.search(search)
 	if search
-	   where('first_name LIKE ?', "%#{search}%")
+	   where('first_name LIKE :search OR middle_name LIKE :search OR last_name LIKE :search', search: "%#{search}%")
 	end
   end
   	
