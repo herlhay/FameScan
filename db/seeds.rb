@@ -230,7 +230,7 @@ Profile.create! [
 		mycountry: "Nigeria",
 		mystate: "Lagos",
 		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/idibia.jpg")
-	}
+	},
 	{
 		first_name: "Genevieve",
 		middle_name: "",
