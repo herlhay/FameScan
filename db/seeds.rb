@@ -216,25 +216,35 @@ Profile.create! [
 		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/folawiyo.jpeg")
 	},
 	{
-		first_name: "Tony",
+		first_name: "2face",
 		middle_name: "",
-		last_name: "Elumelu",
-		job: "Chairman, Forte Oil",
+		last_name: "Idibia",
+		job: "Artist",
 		education: "",
-		age: 65,
-		source1: "Gas stations",
-		source2: "utilities",
+		age: 40,
+		source1: "entertainment",
+		source2: "music industry",
 		source3: "self made",
-		net_worth: "229 Billion",
-		description: "Femi Otedola of Nigeria is the controlling shareholder of publicly 
-					 traded Forte Oil, an oil marketing and power generation company. 
-					 Originally a Nigerian subsidiary of British Petroleum (BP), 
-					 Forte Oil has more than 500 gas stations across the country. 
-					 It owns oil storage depots and manufactures its own line of engine oils. 
-					 In 2013, Otedola led the company to purchase a government-owned stake in a 
-					 gas-fired power plant in Kogi state in central Nigeria.",
+		net_worth: "1.5 Billion",
+		description: "Innocent Ujah Idibia, better known by his stage name 2face Idibia, is a Nigerian singer-songwriter, record producer and entrepreneur. He officially discontinued the use of the name Tuface and selected 2baba or Tu-baba as his stage name.The multi-platinum former lead vocalist for Plantashun Boyz is the richest solo entertainer on the list. With an estimated worth of about N600 million (US$3.47 million), and endorsements from firms like Guinness and Airtel, and has also made heavy investments in real estate and stocks.",
 		mycountry: "Nigeria",
 		mystate: "Lagos",
-		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/otedola.jpg")
+		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/idibia.jpg")
+	}
+	{
+		first_name: "Genevieve",
+		middle_name: "",
+		last_name: "Nnaji",
+		job: "Artist",
+		education: "",
+		age: 37,
+		source1: "entertainment",
+		source2: "movie industry",
+		source3: "",
+		net_worth: "1 Billion",
+		description: "Genevieve Nnaji is a Nigerian actress and singer. She won the Africa Movie Academy Award for Best Actress in a Leading Role in 2005.",
+		mycountry: "Nigeria",
+		mystate: "Lagos",
+		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/idibia.jpg")
 	}
 ]
