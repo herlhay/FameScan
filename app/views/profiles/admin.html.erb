@@ -1,0 +1,80 @@
+<div style="padding-left:0" class="col-md-12 admin-container ">
+	<%= render "sidebar" %>
+	<p id="notice"><%= notice %></p>
+	<div class="col-md-6 border">
+		<h4>Add Profiles</h4>
+			<%= form_for(@profile) do |f| %>
+			<div class="myfield">
+			<%= f.label :first_name %>*<br>
+			<%= f.text_field :first_name %>
+			</div>
+			<div class="myfield">
+			<%= f.label :middle_name %><br>
+			<%= f.text_field :middle_name %>
+			</div>
+			<div class="myfield">
+			<%= f.label :last_name %>*<br>
+			<%= f.text_field :last_name %>
+			</div>
+			<div class="field">
+			<%= f.label :myjob %>*<br>
+			<%= f.text_field :myjob %>
+			</div>
+			<div class="field">
+			<%= f.label :education %><br>
+			<%= f.text_field :education %>
+			</div>
+			<div class="field">
+			<%= f.label :age %>*<br>
+			<%= f.number_field :age %>
+			</div>
+			<div class="field">
+			<%= f.label :net_worth %>*<br>
+			<%= f.text_field :net_worth %>
+			</div>
+			<div class="field">
+			<%= f.label "Source of wealth:" %><br>
+			<%= f.text_field :source1 %>*
+			<%= f.text_field :source2 %>
+			<%= f.text_field :source3 %>
+			</div>
+			<div class="field">
+			<%= f.label "Brief description about yourself?" %>*<br>
+			<%= f.text_area :description %>
+			</div>
+			<div class="field">
+			<%= f.file_field :avatar %>
+			</div>
+			<div class="myfield">
+			<%= f.label :mycountry %>*<br>
+			<%= f.text_field :mycountry %>
+			</div>
+			<div class="myfield">
+			<%= f.label :mystate %>*<br>
+			<%= f.text_field :mystate %>
+			</div>
+			<div class="actions field">
+			<%= f.submit %>
+			</div>
+			<% end %>
+	</div>
+	<div class="col-md-4">
+		<h4>Profiles</h4>
+		<table class="table">
+			<thead>
+			<tr>
+				<th>Profile name</td>
+				<th>Net Worth</td>
+				<th colspan="3"></th>	
+			</tr>
+		    </thead>
+			<tbody>
+			<% @profiles.each do |p| %>
+			<tr>
+				<td><%= p.first_name %> <%= p.last_name %></td>
+			</tr>
+			<% end %>
+			<tbody>
+		</table>
+	</div>
+</div>

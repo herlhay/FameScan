@@ -1,0 +1,29 @@
+.admin-container {
+	height: 100%;
+}
+.col-md-12 {
+	padding-left:0;
+}
+.side-bar-container {
+	background-color: gray;
+	height: 100%;
+}
+.border {
+	border-right: 1px solid gray
+}
+.table-border {
+	border: 1px solid gray
+}
+table {
+    counter-reset: rowNumber;
+}
+
+table tr {
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
