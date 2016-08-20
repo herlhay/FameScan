@@ -72,6 +72,9 @@
 			<% @profiles.each do |p| %>
 			<tr>
 				<td><%= p.first_name %> <%= p.last_name %></td>
+				<td><%= p.net_worth %> </td>
+				<td><%= link_to "Open", profile_path(p) %> </td>
+				<td><%= link_to "X", profile_path(p), method: :delete, data: {confirm: "Are you sure"} %> </td>
 			</tr>
 			<% end %>
 			<tbody>
