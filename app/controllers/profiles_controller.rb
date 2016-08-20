@@ -43,7 +43,7 @@ class ProfilesController < ApplicationController
         format.html { redirect_to admin_path, notice: 'Profile was successfully created.' }
         format.json { render :show, status: :created, location: @profile }
       else
-        format.html { redirect_to admin_path, notice: 'You didnt put in some important values pls ensure you fix in the important ones, The starred ones must be filled to save' }
+        format.html { redirect_to admin_path, notice: 'You didnt put in some important values pls ensure you fix in the important ones, The starred ones must be filled to save or profile is already available' }
         format.json { render json: @profile.errors, status: :unprocessable_entity }
       end
     end

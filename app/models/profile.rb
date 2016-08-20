@@ -10,6 +10,7 @@ class Profile < ActiveRecord::Base
   validates :description, presence: true
   validates :mycountry, presence: true
   validates :mystate, presence: true
+  validates_uniqueness_of :first_name, scope: :last_name
 
   def self.search(search)
 	if search

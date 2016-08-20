@@ -36,4 +36,6 @@ ActiveRecord::Schema.define(version: 20160531114347) do
     t.string   "myjob"
   end
 
+  add_index "profiles", ["first_name", "last_name"], name: "index_profiles_on_first_name_and_last_name", unique: true
+
 end
