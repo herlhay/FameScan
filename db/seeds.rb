@@ -246,5 +246,21 @@ Profile.create! [
 		mycountry: "Nigeria",
 		mystate: "Lagos",
 		avatar: File.open("/Users/chineduabalogu/Documents/Important\ docs/famescan\ old/images/idibia.jpg")
+	},
+	{
+		first_name: "Jannie",
+		middle_name: "",
+		last_name: "Mouton",
+		job: "CEO of PSG Group",
+		education: "",
+		age: 69,
+		source1: "Financial services",
+		source2: "Self Made",
+		source3: "",
+		net_worth: "319.6 Billion",
+		description: "The 69-year-old self-made billionaire is the founder of CEO of PSG Group, a listed investment holding company with interests in banking, financial services, agriculture, private equity and education.",
+		mycountry: "South-Africa",
+		mystate: "Stellenbosch",
+		avatar: File.open("http://specials-images.forbesimg.com/imageserve/1f8b29d81374dbc7a02287a8f0ed74e8/320x486.jpg?fit=scale&background=000000")
 	}
 ]
